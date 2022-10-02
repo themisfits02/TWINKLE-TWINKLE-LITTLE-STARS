@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>THE MISFITS</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<video src="images/extra/videoplayback.mp4" class="vid-bg" autoplay loop muted></video>
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Did you know?</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Deep Dive</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Dwell on the beauty of life. Watch the stars, and see yourself running with them.</p>
+				<h5>Digital Enchanting Stars</h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="images/projects/watchnow.mp4" target="_blank">Watch Video</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/mi.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="" alt="Username">
+				<p>themisfits</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Did you know?</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Deep Dive</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="title">
+		<span>Know about Stars</span>
+	</div>
+	<br><br>
+	
+	</div>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="pages1.html"><img src="images/icon/books.png">What is a Star?</a></div>
+		<div class="det"><a href="pages2.html"><img src="images/icon/birth.png">Birth of a Star</a></div>
+		<div class="det"><a href="pages3.html"><img src="images/icon/life.jpeg">Life Cycle of a Star</a></div>
+		<div class="det"><a href="pages4.html"><img src="images/icon/death.jpeg">Death of a Star</a></div
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="pages5.html"><img src="images/icon/vstars.png">Variable Stars</a></div>
+		<div class="det"><a href="pages6.html"><img src="images/icon/stellar.jpeg">Stellar Variability</a></div>
+		<div class="det"><a href="pages7.html"><img src="images/icon/breath.png">Breathing Night Sky</a></div>
+		<div class="det"><a href="pages8.html"><img src="images/icon/exo.png">Exoplanet Detection</a></div>
+		
+
+		</div>
+	</div>
+		<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">Recent Discoveries</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/r1.jpeg">
+				</div>
+				<div class="side-text">
+					<h2>Twinkle, Twinkle, Little Star</h2>
+					<br><a href="https://chandra.harvard.edu/photo/2022/g292/">1.June 15,2022 - NASA’s Chandra Catches Pulsar in X-ray Speed Trap</a></br>
+					<br><a href="https://hubblesite.org/contents/news-releases/2022/news-2022-026">2.June 15,2022- Dead Star Caught Ripping Up Planetary System</a></br>
+					<br><a href="https://esahubble.org/images/potw2220a/">3.May 16,2022- Hubble Spies a Glittering Gathering of Stars (NGC 6558)</a></br>
+					<br><a href="https://esahubble.org/images/potw2219a/">4.May 9,2022- Aftermath of a Cosmic Cataclysm (DEM L 249)</a></br>
+					<br><a href="https://hubblesite.org/contents/news-releases/2022/news-2022-011">5.May 5,2022- Hubble Reveals Surviving Companion Star in Aftermath of Supernova</a></br>
+					<br><a href="https://hubblesite.org/contents/news-releases/2022/news-2022-003">6.March 30,2022- Record Broken: Hubble Spots Farthest Star Ever Seen</a></br>
+					<br><a href="https://chandra.harvard.edu/photo/2022/j2030/">7.March 14,2022- Tiny Star Unleashes Gargantuan Beam of Matter and Antimatter (PSR J2030+4415)</a></br>
+					<br><a href="https://www.nasa.gov/feature/goddard/2022/nasa-s-nicer-telescope-sees-hot-spots-merge-on-a-magnetar/">8.March 8,2022- NASA's NICER Telescope Sees Hot Spots Merge on a Magnetar</a></br>
+					<br><a href="https://esahubble.org/images/potw2210a/">9.March 7,2022- Hubble Snaps a Jet Set</a></br>
+					<br><a href="https://www.nustar.caltech.edu/news/nustar220301">10.March 1, 2022- NASA’s NuSTAR Makes Illuminating Discoveries With ‘Nuisance’ Light</a></br>
+
+				</div>
+		</div>
+	</div>
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Did you know?</p></center>
+		<div class="content">
+			<p>
+                 "Introducing you to our galaxy that is Milky Way which comprises of about 200 billion stars estimated. As per the discoveries of NASA and other space agencies around the world, here is the concised data."
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>Last Revised in March 2022</p>
+		<div class="smbox">
+		<span><center><div class="data">20000</div><div class="det">Discovered Nebulas</div></center></span>
+		<span><center><div class="data">3200</div><div class="det">Discovered Stars within Solar System</div></center></span>
+		<span><center><div class="data">5000</div><div class="det">Discovered Exoplanets</div></center></span>
+		<span><center><div class="data">100 Million</div><div class="det">Black Holes</div></center></span>
+		</div>
+	</div>
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/extra/p3.jpeg"></center>
+				<center><div class="card-title">Shubham Srivastava</div>
+				<div id="detail">
+					<p>"Working together, tiny stars light the universe. That's the power of teamwork."</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/mwlite/in/shubham-srivastava-888447188" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/c1.png"></center>
+				<center><div class="card-title">Unnati Agarwal</div>
+				<div id="detail">
+					<p>"No one can stop us now/ 'Cause we are all made of stars" - "We Are All Made of Stars,"</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/unnati-agarwal-b7087a220" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/c2.jpg"></center>
+				<center><div class="card-title">Srishti Saxena</div>
+				<div id="detail">
+					<p>"There's a light in you that shines as brightly as the strongest star in the sky."</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/srishti-saxena-2b4972200" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/extra/p1.jpeg"></center>
+				<center><div class="card-title">Shashank Srivastava</div>
+				<div id="detail">
+					<p>"Even on the cloudiest of nights, stars still shine through the haze. So too, light will shine on even the darkest days."</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/shashank-srivastava-5bb161221" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/extra/p2.jpeg"></center>
+				<center><div class="card-title">Utkarsh Gaur</div>
+				<div id="detail">
+					<p>"Even on the cloudiest of nights, stars still shine through the haze. So too, light will shine on even the darkest days."</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/utkarsh-gaur-478191229" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: rgb(0, 0, 0);">Deep Dive</p></center>
+		</div>
+		<a href="quizwuiz/quiz.html"><div class="s-card"><img src="images/icon/quizzes.jpg"><p>Quizzes</p></div></a>
+		<a href="pgame/Puzzle-Game-main/temp_index.html"><div class="s-card"><img src="images/icon/puzzles.jpg"><p>Puzzles Game</p></div></a>
+		<a href="RiddleON-master/riddle.html"><div class="s-card"><img src="images/icon/riddles.jpg"><p>Riddle Game</p></div></a>
+		<a href="Discussion-App-main/discussion.html"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion</p></div></a>
+		<a href="images/extra/UG.mp4"><div class="s-card"><img src="images/icon/calendar.jpg"><p>Astronomical Calendar</p></div></a>
+	</div>
+<div id="makeitfull">
+	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Scientists Say About Stars?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist1.jpg"><p>Stephen Hawking</p>
+				
+			</div>
+			<div class="rev-cont">
+				<p id="title">WORDS:</p>
+				<p id="content">
+					“So, remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious. And however difficult may life seem, there is always something you can do and succeed at. 
+					It matters that you don't just give up. Unleash your imagination. Shape the future.”
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/extra/HG.jpg"><p>H. G. Wells</p>
+			</div>
+			<div class="rev-cont">
+				<p id="title">WORDS:</p>
+				<p id="content">
+					"Looking at these stars suddenly dwarfed my own troubles and all the gravities of terrestrial life. I thought of their unfathomable distance, and the slow inevitable drift of their movements out of the unknown past into the unknown future."
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/extra/DW.jpg"><p>Danny Wallace</p>
+				
+			</div>
+			<div class="rev-cont">
+				<p id="title">WORDS:</p>
+				<p id="content">
+					"And as I looked at the star, I realised what millions of other people have realised when looking at stars. We’re tiny. We don’t matter. We’re here for a second and then gone the next. 
+					We’re a sneeze in the life of the universe."
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/extra/JL.jpg"><p>James Lovell</p>
+			</div>
+			<div class="rev-cont">
+				<p id="title">WORDS:</p>
+				<p id="content">
+					"The real friends of the space voyager are the stars. 
+					Their friendly, familiar patterns are constant companions, unchanging, out there."
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto: unnati.agarwal.2704@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Digital Enchanting Stars”-Team Misfits</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				
+				<br><p><img src="images/icon/location.png"> Galgotias College Of Engineering and Technology<br>Greater Noida, 206301</p><br>
+				<p><img src="images/icon/phone.png"> +91-8604480913<br><img src="images/icon/mail.png">&nbsp; themisfits@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

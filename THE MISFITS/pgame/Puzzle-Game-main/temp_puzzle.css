@@ -1,0 +1,93 @@
+body{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.window{
+    height: 92vh;
+    background-color: rgb(0, 0, 0);
+    padding: 4vh;
+}
+
+.main_part
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0rem auto;
+    width: 54vw;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: -5px -5px 30px 5px rgb(48, 31, 31), 5px 5rgb(72, 30, 30)30px 5px red
+}
+img-main img{
+    height: 20rem;
+    width: 26rem;
+    margin-top: 3vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    /* height: 100%; */
+}
+.img{
+    background-color: rgb(255, 251, 255);
+    height: 100%;
+}
+.btn-main{
+    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2vh 3vw;
+    margin-bottom: 1.5vh;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover {
+    background-color: rgb(219, 220, 231);
+    /* color:rgb(14, 140, 243); */
+  }
+
+.puzzle-main {
+    width: 360px;
+    height: 359px;
+    background-color: rgb(3, 50, 66);
+    border: 10px solid #273e4f;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puzzle-main img {
+    width: 118px;
+    height: 118px;
+    margin: -2px 0px;
+    border: 1px solid #233b4e;
+}
+#comment{
+    color: white;
+}
+.level{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20vh 13vh;
+}
+.level_logo{
+    width: 12vw;
+    height: 10vh;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 4vh 1.5vh;
+    padding: 2vh 3vw;
+    background-color: rgb(31, 44, 71);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.result p{
+    color: white;
+}
